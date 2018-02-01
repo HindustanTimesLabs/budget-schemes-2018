@@ -1,0 +1,196 @@
+#title-wrapper {
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  width: 50%;
+}
+#title-wrapper .hed {
+  font-size: 2.2em;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+#title-wrapper .subhed {
+  margin-bottom: 20px;
+  font-size: 1.22em;
+}
+#title-wrapper .byline {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+#title-wrapper .intro {
+  margin-top: 20px;
+}
+
+#search-wrapper {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 40px;
+  background: #fff;
+}
+#search-instructions {
+  font-size: .7em;
+  color: #888;
+  margin-bottom: 2px;
+}
+#search {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #eee
+}
+#no-matches {
+  display: none;
+}
+#search-status {
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+  margin-top: 5px;
+}
+#search-status .search-status-head {
+  font-size: 1.1em;
+  margin-bottom: 4px;
+}
+#search-status .option-status {
+  color: #888;
+  float: left;
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 1px 2px rgba(0,0,0,.08);
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+}
+#search-status .option-status:hover {
+  border-color: #ccc;
+  border-bottom-color: #bbb;
+  box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  color: #666;
+}
+#search-status .option-status:nth-child(2) {
+  border-radius: 5px 0 0 5px;
+}
+#search-status .option-status:last-child {
+  border-radius: 0 5px 5px 0;
+}
+#search-status .option-status.active {
+  color: #3a403d;
+  background: #f0f0f0;
+  border-color: #ccc;
+  border-top-color: #bbb;
+  box-shadow: none;
+}
+.affix {
+  top: 0px;
+  left: 25%;
+  padding: 8px;
+}
+
+#ministries-wrapper {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  width: 50%;
+}
+.ministry {
+  margin-bottom: 60px;
+}
+.ministry .ministry-icon {
+  margin-bottom: 10px;
+  font-size: 6em;
+  text-align: center;
+}
+.ministry .ministry-name {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.scheme {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.scheme .scheme-name {
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 1.7em;
+}
+.scheme .scheme-status {
+  font-size: 1.4em;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.decreased {
+  color: #e74c3c !important;
+}
+.unchanged {
+  color: #efc94c !important;
+}
+.increased {
+  color: #45b29d !important;
+}
+.new-scheme {
+  color: #6a7059 !important;
+}
+.scheme .scheme-table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.scheme .scheme-table thead {
+  width: 33.333333%;
+  font-size: .8em;
+  color: #888;
+}
+.scheme .scheme-description {
+  font-size: .9em;
+}
+
+.superhead {
+  color: #2880b9;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  #title-wrapper, #search-wrapper, #ministries-wrapper {
+    width: 67%;
+  }
+  .affix {
+    left: 16.5%;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  #title-wrapper, #search-wrapper, #ministries-wrapper {
+    width: 100%;
+  }
+  .affix {
+    left: 0%;
+  }
+  #search-status .option-status {
+    font-size: .6em;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+}
